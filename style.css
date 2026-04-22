@@ -1,0 +1,17 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  margin-top: 10px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.start { background: green; }
+.goal { background: red; }
+.wall { background: black; }
+.visited { background: lightblue; }
+.path { background: yellow; }

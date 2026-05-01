@@ -3,7 +3,6 @@ class Cell {
     this.row = row;
     this.col = col;
     this.isWall = false;
-
     this.element = document.createElement("div");
     this.element.className = "cell";
   }
